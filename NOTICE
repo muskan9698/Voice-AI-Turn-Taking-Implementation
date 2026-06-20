@@ -1,0 +1,47 @@
+Voice-AI-Turn-Taking-Implementation
+Copyright 2026 Muskan Rathore
+
+Licensed under the Apache License, Version 2.0.
+
+This product includes / builds upon the following third-party open-source
+software, each licensed under the MIT License:
+
+---
+
+1. VAP-Realtime
+   https://github.com/inokoj/VAP-Realtime
+   Copyright (c) Koji Inoue and contributors
+   License: MIT (see upstream LICENSE)
+
+   Note: The trained model checkpoints in that repository's `asset/`
+   directory are restricted to academic use only, separate from the
+   MIT-licensed source code. This repository does not redistribute those
+   checkpoints; see README for download instructions.
+
+   If referencing results derived from this code, please cite:
+   Koji Inoue, Bing'er Jiang, Erik Ekstedt, Tatsuya Kawahara, Gabriel Skantze.
+   "Real-time and Continuous Turn-taking Prediction Using Voice Activity
+   Projection." IWSDS 2024. https://arxiv.org/abs/2401.04868
+
+---
+
+2. DualTurn
+   https://github.com/anyreachai/dualturn
+   Copyright (c) Shangeth Rajaa and contributors
+   License: MIT (see upstream LICENSE)
+
+   Pretrained checkpoints are hosted separately on HuggingFace
+   (anyreach-ai/dualturn-qwen2.5-mimi-0.5B) and are not redistributed
+   in this repository.
+
+   If referencing results derived from this code, please cite:
+   Shangeth Rajaa. "DualTurn: Learning Turn-Taking from Dual-Channel
+   Generative Speech Pretraining." Submitted to Interspeech 2026.
+   https://arxiv.org/abs/2603.08216
+
+---
+
+The MIT License for both projects above permits use, modification, and
+redistribution under the terms reproduced in their respective upstream
+repositories. This NOTICE file is provided for attribution purposes only
+and does not modify the terms of this repository's Apache License 2.0.
