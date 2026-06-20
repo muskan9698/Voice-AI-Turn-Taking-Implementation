@@ -1,0 +1,6 @@
+[submodule "VAP-Realtime_VoiceAI_Turntaking"]
+	path = VAP-Realtime_VoiceAI_Turntaking
+	url = https://github.com/muskan9698/VAP-Realtime_VoiceAI_Turntaking.git
+[submodule "Dualturn_VoiceAI_Turntaking"]
+	path = Dualturn_VoiceAI_Turntaking
+	url = https://github.com/muskan9698/Dualturn_VoiceAI_Turntaking.git
